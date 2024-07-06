@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.active {
+  color: white;
+  background: #2196f3;
+}
+.pointer {
+  cursor: pointer;
+}
+.hoverable:hover {
+  transform: scale(1.01);
+  box-shadow: 0.4rem 0.4rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+.react-photo-gallery--gallery img {
+  object-fit: cover;
+  height: 500px !important;
+}
+.square {
+  border-radius: 0px;
+}
+a {
+  text-decoration: none;
+}

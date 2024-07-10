@@ -2,6 +2,7 @@
 ## Deployed Website
 You can access the deployed website at the following link:
 https://real-estate-client-9wbp.onrender.com
+**When you visit the website at this link, please wait one minute for the server to start working.**
 ## Overview
 This web application facilitates property discovery, management, and interaction. Users can explore detailed property listings for sale or rent, create and modify their own property listings, and engage with property owners and agents. Additionally, users can save favorite properties and contact sellers directly for inquiries.
 

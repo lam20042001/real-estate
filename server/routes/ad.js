@@ -18,4 +18,8 @@ router.get("/wishlist", requireSignin, ad.wishlist);
 router.get("/ads-for-sell", ad.adsForSell);
 router.get("/ads-for-rent", ad.adsForRent);
 router.get("/search", ad.search);
+
+router.get("/agents", ad.agents);
+router.get("/agent-ad-count/:_id", ad.agentAdCount);
+router.get("/agent/:username", ad.agent);
 export default router;

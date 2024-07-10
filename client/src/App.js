@@ -29,6 +29,8 @@ import ErrorBoundary from 'antd/es/alert/ErrorBoundary';
 import ChangePassword from './pages/user/ChangePassword';
 import Search from './pages/Search';
 import AuthStore from './components/store/AuthStore';
+import Agents from './pages/Agents';
+import Agent from './pages/Agent';
 console.log(process.env);
 function App() {
   return (
@@ -61,6 +63,8 @@ function App() {
                 <Route path="/search" element={<Search />} />
                 <Route path='/buy' element={<Buy />} />
                 <Route path='/rent' element={<Rent />} />
+                <Route path='/agents' element={<Agents />} />
+                <Route path='/agent/:username' element={<Agent />} />
                 <Route path='*' element={<Page404 />} />
               </Routes>
               <Footer />

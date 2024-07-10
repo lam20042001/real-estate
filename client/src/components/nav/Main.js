@@ -27,6 +27,7 @@ export default function Main() {
             <NavLink className="nav-link" aria-current="page" to="/search">Search</NavLink>
             <NavLink className="nav-link" aria-current="page" to="/buy">Buy</NavLink>
             <NavLink className="nav-link" aria-current="page" to="/rent">Rent</NavLink>
+            <NavLink className="nav-link" aria-current="page" to="/agents">Agents</NavLink>
             <NavLink className="nav-link" aria-current="page" to="/ad/create"> Post Ad</NavLink>
             {!loggedIn && <NavLink className="nav-link" to="/login">Login</NavLink>}
             {!loggedIn && <NavLink className="nav-link" to="/register">Register</NavLink>}
